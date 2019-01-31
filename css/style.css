@@ -15,6 +15,7 @@
 @import url('components/slide.css');
 @import url('components/about.css');
 @import url('components/footer.css');
+@import url('components/aside.css');
 
 
 /*Global*/
@@ -36,3 +37,4 @@ h2 {
 h4{
   font-size: 1.2em;
 }
+
