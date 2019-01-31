@@ -16,9 +16,6 @@
 }
 /*Perfil Section*/
 .perfil{
-  box-sizing: border-box;
-}
-.perfil img{
   border-radius: 10px;
   height: 100%;
   object-fit: cover;
