@@ -1,0 +1,27 @@
+.progress-bar{
+  padding: .5em 0;
+}
+.progress-bar p{
+  color: rgb(88, 181, 153);
+  font-size: medium;
+  font-weight: bold;
+  padding-bottom: .5em;
+  padding-left: .7em;
+}
+.progress-bar .meta {
+  background: transparent;
+  border-radius: 25px;
+  border: 1px solid rgb(0,0,0,0.5);
+  box-sizing: border-box;
+  height: 1em;
+  padding: .2em;
+  position: relative;
+}
+.progress-bar .meta > span {
+  background: linear-gradient(to right, rgb(12, 235, 235), rgb(32, 227, 178), rgb(41, 255, 198));
+  border-radius: 20px;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}

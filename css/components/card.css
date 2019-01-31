@@ -1,0 +1,27 @@
+.card{
+  box-shadow: 2px 2px 4px rgba(10,10,10,0.3);
+  margin: 1em 0;
+  padding: 2em;
+}
+.card > div{
+  padding-left: 3em;
+}
+.card .course{
+  color: rgb(100,100,100);
+  font-size: xx-large;
+  font-weight: 400;
+  padding-top: .3em;
+}
+.card .year{
+  color: rgb(100,100,100);
+  font-size: small;
+  font-weight: lighter;
+}
+.card .institution{
+  font-size: medium;
+  font-weight: 100;
+  padding-top: 1em;
+}
+.card .card-logo{
+  flex-grow: 0;
+}

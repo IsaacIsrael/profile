@@ -1,0 +1,26 @@
+/*Footer*/
+.footer{
+  background: #20e3b2;
+  height: 30vh;
+  position: relative;
+}
+.footer .header{
+  left: 50%;
+  position: absolute;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+.footer .header h1,
+.footer .header h2{
+  display: inline-block;
+}
+.footer .header h1{
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.footer .header h2{
+  color: #fff;
+  font-size: large;
+  font-weight: 100;
+  padding: 2em;
+}

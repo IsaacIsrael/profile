@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400|Roboto:300,400,700');
+
+/*Component*/
+@import url('components/buttons.css');
+@import url('components/timeline.css');
+@import url('components/progessbar.css');
+@import url('components/avatar.css');
+@import url('components/card.css');
+@import url('components/baner.css');
+
+/*Layout*/
+@import url('reset.css');
+@import url('components/column_layout.css');
+@import url('components/section.css');
+@import url('components/slide.css');
+@import url('components/about.css');
+@import url('components/footer.css');
+
+
+/*Global*/
+body{
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 100;
+}
+h1 {
+  font-size: 5vw;
+  margin-top: 0;
+}
+h2 {
+  font-size: 3vw;
+}
+h4{
+  font-size: 1.2em;
+}

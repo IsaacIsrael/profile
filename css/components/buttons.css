@@ -1,0 +1,12 @@
+.social .btn{
+  background-color: rgb(100,100,100);
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: white;
+  font-size: 1.3em;
+  margin: 5px;
+  padding: 0.5em;
+}
+.social .btn:hover{
+  background-color: rgb(88, 181, 153);
+}

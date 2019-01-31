@@ -1,0 +1,34 @@
+.section{
+  padding: 3em 0;
+}
+.section-white{
+  background-color: rgba(245,245,245,.9);
+}
+.section-gradient{
+  background: linear-gradient(to right, rgb(168, 255, 120), rgb(120, 255, 214));
+}
+.content{
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 960px;
+}
+.content > .header{
+  text-align: center;
+}
+.title{
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-bottom: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-gradient .title{
+  border-radius: 5px;
+  border: 2px solid rgba(255,255,255,0.6);
+  color: rgb(100,100, 100);
+  display: inline-block;
+  padding: .3em .7em;
+}
+.section-white .title{
+  color: rgb(50,50, 50);
+}
