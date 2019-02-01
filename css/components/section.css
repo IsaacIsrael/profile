@@ -10,7 +10,8 @@
 .content{
   box-sizing: border-box;
   margin: 0 auto;
-  width: 960px;
+  width: 95vw;
+  max-width: 960px;
 }
 .content > .header{
   text-align: center;

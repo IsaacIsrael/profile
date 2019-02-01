@@ -22,3 +22,9 @@
 .aside a:hover{
   color: rgba(255,255,255);
 }
+
+@media(max-width: 768px){
+  .aside{
+    display: none;
+  }
+}

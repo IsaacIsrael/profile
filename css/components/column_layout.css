@@ -1,11 +1,14 @@
 /*Two Column */
-.col{
-  box-sizing: border-box;
-}
 .col-two{
   display: flex;
   flex-direction:row;
 }
 .col-two> *{
   flex: 1;
+}
+
+@media(max-width: 600px){
+  .col-two{
+    flex-direction: column;
+  }
 }

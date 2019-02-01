@@ -1,64 +1,67 @@
 /*Slide*/
 .slide-wrap{
-  height: 80vh;
   padding: 0;
-  position: relative;
 }
 .slide{
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 2px 2px 4px rgba(10,10,10,0.3);
-  height: 80vh;
-  left: 50%;
   padding: 1.5em;
-  position: absolute;
-  transform: translate(-50%,25%);
+  height: 80vh;
 }
-/*Perfil Section*/
 .perfil{
   border-radius: 10px;
   height: 100%;
   object-fit: cover;
   width: 100%;
 }
-/*Info Section*/
-.info{
+.slide-content{
   margin: auto;
 }
-.info ul{
+.slide-content ul{
   padding: 2em 0;
 }
-.info .header{
+.slide-content .header{
   padding: 0 3em;
 }
-.info .header h1{
+.slide-content .header h1{
   margin: .1em 0
   text-transform: uppercase;
 }
-.info .header h4{
+.slide-content .header h4{
   font-size: 1.1em;
   font-weight: 300;
 }
-.details{
-  list-style-type: none;
-  padding: 2em;
-}
-.details li{
-  display: flex;
-  justify-content: space-around;
-  padding: .7em 1em;
-}
-.details li i{
-  color:rgb(88, 181, 153);
-  font-size: 1.5em;
-}
-.details li span{
-  font-size: 1.1em;
-  font-weight: 300;
-}
-.info .social{
+.slide-content .social{
   text-align: center;
 }
-.info .social li{
+.slide-content .social li{
   display:  inline;
 }
+
+@media(max-width: 600px){
+  .slide{
+    border-radius: 0px;
+    padding: 1em;
+  }
+  .slide > div:first-child{
+    height: 0px;
+    text-align: center;
+  }
+  .perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transform: translate(0,-78%);
+  }
+  .slide-content .header{
+    padding: 0 1em;
+  }
+  .slide-content .list{
+    padding: 1em 0;
+  }
+  .slide-content .social{
+    padding: 1em 0;
+  }
+}
+

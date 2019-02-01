@@ -25,3 +25,13 @@
 .card .card-logo{
   flex-grow: 0;
 }
+
+@media(max-width: 600px){
+  .card.col-two{
+     flex-direction: row;
+     align-items: center;
+  }
+  .card > div{
+    padding-left: 1em;
+  }
+}
