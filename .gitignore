@@ -11,3 +11,8 @@ Thumbs.db
 /.jekyll-cache/
 Gemfile.lock
 yarn.lock
+.jekyll-metadata
+dist
+node_modules
+package-lock.json
+yarn-error.log

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Manrope:400,500,700,800&display=swap');
+
+
+$font-family-sans-serif:        'Manrope', sans-serif;
+$headings-font-family:          'Manrope', sans-serif;
+$theme-colors: (
+  "primary": #AB4499,
+  "secondary": #0DAF96,
+  "info": #00BAF2,
+  "dark": #6C757D
+);
+$enable-responsive-font-sizes: true;
+
+
+@import "bootstrap";
