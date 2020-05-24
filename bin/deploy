@@ -9,6 +9,8 @@ set -e
 
 # Build JavaScript
 webpack -p
+git add '_assets/javaScripts'
+git commit -m 'Build JavaScript'
 
 # Check if any changes are uncommited.
 if ! git diff-files --quiet --ignore-submodules --
