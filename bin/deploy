@@ -7,11 +7,6 @@ RED='\033[0;31m'
 # Exit if any subcommand fails.
 set -e
 
-# Build JavaScript
-webpack -p
-git add '_assets/javascripts/'
-git commit -m 'JavaScript Build'
-
 # Check if any changes are uncommited.
 if ! git diff-files --quiet --ignore-submodules --
 then
