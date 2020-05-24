@@ -6,5 +6,8 @@
 # Exit if any subcommand fails
 set -e
 
+# Build JavaScript
+webpack -p
+
 # Run Jekell.
 bundle exec jekyll s --livereload
