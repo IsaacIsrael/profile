@@ -1,5 +1,5 @@
 assets:
-
+  full_url: true
   plugins:
     css: { autoprefixer: {}}
     img: { optim: {}}
