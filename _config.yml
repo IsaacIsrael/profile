@@ -1,5 +1,4 @@
 assets:
-  full_url: true
   plugins:
     css: { autoprefixer: {}}
     img: { optim: {}}
@@ -29,4 +28,5 @@ name: profile
 
 permalink: pretty
 
+baseurl: /profile
 url: 'https://isaacisrael.github.io/profile/'

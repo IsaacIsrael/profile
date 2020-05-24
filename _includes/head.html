@@ -20,5 +20,5 @@
 
   <link rel="apple-touch-icon" href="{% asset apple-touch-icon.png @path %}">
 
-  {% asset application.css %}
+  {% asset 'application.css' | remove: site.assets.baseurl %}
 </head>
