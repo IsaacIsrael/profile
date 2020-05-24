@@ -1,4 +1,7 @@
-body{
-  background-color: black;
-  color: white;
+section{
+  min-height: 100vh;
+
+  .section-wrap{
+    height: 100%;
+  }
 }
