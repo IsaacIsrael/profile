@@ -1,4 +1,5 @@
 assets:
+
   plugins:
     css: { autoprefixer: {}}
     img: { optim: {}}
