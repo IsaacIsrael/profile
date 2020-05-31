@@ -3,6 +3,8 @@ export default function initFullpage(){
     //options here
     autoScrolling:true,
     navigation: true,
+    scrollOverflow: true,
+    scrollOverflowReset: true,
     navigationTooltips: [
       '',
       'About Me',

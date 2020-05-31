@@ -5,14 +5,13 @@
   header_class: container
   title: "<span class='code'>$</span><span class='cover-title'></span>"
   class_title:  display-4
-  thirdtitle: "<small>Let me be the CSS for your HTML</small>"
+  thirdtitle: "<small><span>Let me be the CSS</span><span class='d-block d-sm-inline'> for your HTML</span></small>"
   class_thirdtitle: text-center text-sm-left font-italic
   data_thirdtitle:  data-aos="fade-up" data-aos-delay="3000" data-aos-duration="2000"
-
-
-
 - name: about
-  component: test
+  component: columns
+  subtitle: About Me
+
 - name: carrier
   component: test
 - name: projects

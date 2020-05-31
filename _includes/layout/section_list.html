@@ -12,7 +12,7 @@
     {% assign path = 'sections'%}
   {% endif%}
 
-  <section id="{{ section.name }}" class="section my-5 pr-3 pr-sm-0">
+  <section id="{{ section.name }}" class="section fp-auto-height-responsive pr-3 pr-sm-0">
     <div class="section-wrap {% if section.container == nil or section.container %} container{% endif %}">
 
       {% include layout/section_header.html  info=section %}

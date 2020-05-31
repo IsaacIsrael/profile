@@ -1,0 +1,9 @@
+{% if  include.info.image != nil %}
+  <img class="{{include.info.image_class}}" src="{% asset {{include.info.image}} @path %}"  alt="{{ include.info.alt }}">
+{% endif %}
+{% if  include.info.infos != nil %}
+  {% for info in include.info.infos %}
+    <p>{{info.text}}</p>
+  {% endfor%}
+{% endif %}
+
